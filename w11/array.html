@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>골든차일드</h1>
+        <h2>KPOP아이돌</h2>
+        <h3>보이그룹</h3>
+        <ul>
+        <script>
+            GNCD = ["대열", "와이", "장준", "태그", "승민", "재현", "지범", "동현", "주찬", "보민"];
+            GNCDimg = ["대열.jpg", "와이.jpg", "장준.jpg", "태그.jpg", "승민.jpg", "재현.jpg", "지범.jpg", "동현.jpg", "주찬.jpg", "보민.jpg"];
+            var i = 0;
+            while(i < GNCD.length){
+                document.write('<li><a href="https://namu.wiki/w/' + GNCD[i] + '">' + GNCD[i] + '</li>');
+                
+                document.write('<img src="' + GNCDimg[i] + '" width="30%">'
+                );
+                i = i + 1;
+            }
+        </script>
+        </ul>
+    </body>
+</html>
